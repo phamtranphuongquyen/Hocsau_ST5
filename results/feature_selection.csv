@@ -1,0 +1,6 @@
+Cấu hình,Số đặc trưng giữ,Ridge RMSE
+"Không chọn (D, Ridge)",236,0.11275425784254856
+Lasso chọn đặc trưng (alpha=0.0003),115,0.11368005143484974
+Lasso chọn đặc trưng (alpha=0.001),75,0.11144460120649431
+Lasso chọn đặc trưng (alpha=0.003),43,0.1177639006979736
+Lasso chọn đặc trưng (alpha=0.01),26,0.12493231817706256
