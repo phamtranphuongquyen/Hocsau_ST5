@@ -63,7 +63,9 @@ def scan_dataset(data_dir=DATA_DIR):
                 f"{directory}: thiếu lớp {set(CLASSES) - actual}; lớp lạ {actual - set(CLASSES)}"
             )
         for path in sorted(directory.rglob("*")):
-            if not path.is_file():
+            # Windows shortcuts (for example ``DO_AN.lnk``) are not dataset
+            # samples. Only JPG files are consumed by this project.
+            if not path.is_file() or path.suffix.lower() != ".jpg":
                 continue
             relative = path.relative_to(directory)
             if len(relative.parts) != 2 or path.parent.name not in CLASSES:
