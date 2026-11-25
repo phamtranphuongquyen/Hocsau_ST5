@@ -72,7 +72,7 @@ python -c "import torch; print(torch.__version__, torch.cuda.is_available())"
 ```
 Chạy demo ngay:
 ```powershell
-cd D:\DO_AN\BTLON02
+cd D:\DO_AN\Hocsau_ST5
 .\.venv\Scripts\python.exe -m streamlit run app.py
 ```
 
