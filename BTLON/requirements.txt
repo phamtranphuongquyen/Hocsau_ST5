@@ -1,0 +1,6 @@
+torch==2.10.0
+torchvision==0.25.0
+matplotlib>=3.10,<4
+scikit-learn>=1.6,<2
+streamlit>=1.42,<2
+Pillow>=11,<14
