@@ -1,0 +1,33 @@
+# Local Python environments and caches
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local datasets and generated ML artifacts
+DATA/
+**/DATA/
+data/
+**/data/
+models/
+**/models/
+results/
+**/results/
+checkpoints/
+**/checkpoints/
+
+# Large local archives and generated media
+*.pth
+*.pt
+*.ckpt
+*.zip
+*.jpg
+*.jpeg
+*.png
+
+# Local manifests/logs
+.original_manifest.json
+*.log
